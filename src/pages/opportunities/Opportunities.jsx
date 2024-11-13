@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import pict1 from "../../components/assets/images/opportunity1.png";
 import pict2 from "../../components/assets/images/opportunity2.jpg";
 import pict3 from "../../components/assets/images/opportunity3.jpg";
@@ -92,14 +92,6 @@ function Opportunities() {
 }
 
 export default Opportunities;
-import React, { useState } from "react";
-import pict1 from "../../components/assets/images/opportunity1.png";
-import pict2 from "../../components/assets/images/opportunity2.jpg";
-import pict3 from "../../components/assets/images/opportunity3.jpg";
-import pict4 from "../../components/assets/images/opportunity4.jpg";
-import pict5 from "../../components/assets/images/opportunity5.jpg";
-import pict6 from "../../components/assets/images/opportunity6.jpg";
-
 
 // function Opportunities() {
 //   const images = [pict1, pict2, pict3, pict4, pict5, pict6];

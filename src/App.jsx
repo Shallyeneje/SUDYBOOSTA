@@ -16,11 +16,11 @@ import ComingSoon from "./pages/comingsoon/comingsoon";
 import CPE500 from "./pages/courses/CPE500";
 import CPE531 from "./pages/courses/CPE531";
 import CPE553 from "./pages/courses/CPE553";
-import Opportunities from "./pages/opportunities/Opportunities";
 import Marketplace from './pages/marketplace/marketplace';
 import CPE200 from './pages/courses/CPE200';
 import EMA212 from './pages/courses/EMA212';
 import MEE212 from './pages/courses/MEE212';
+import Opportunities from './pages/opportunities/Opportunities'
 // import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 // import { ClerkProvider } from '@clerk/clerk-react';
 export function App() {
@@ -43,7 +43,7 @@ export function App() {
           <Route path='CPE500' element={<CPE500 />} />
           <Route path='CPE531' element={<CPE531 />} />
           <Route path='CPE553' element={<CPE553 />} />
-          <Route path='Opportunities' element={< Opportunities/>} />
+          <Route path='Opportunities' element={ <Opportunities />} />
           <Route path='Marketplace' element={<Marketplace />} />
           <Route path='CPE200' element={<CPE200 />} />
           <Route path='EMA212' element={<EMA212 />} />
