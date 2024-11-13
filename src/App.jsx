@@ -20,7 +20,7 @@ import Marketplace from './pages/marketplace/marketplace';
 import CPE200 from './pages/courses/CPE200';
 import EMA212 from './pages/courses/EMA212';
 import MEE212 from './pages/courses/MEE212';
-import Opportunities from './pages/Opportunities/Opportunities';
+import Opportunities from './pages/opportunities/Opportunities';
 // import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 // import { ClerkProvider } from '@clerk/clerk-react';
 export function App() {
