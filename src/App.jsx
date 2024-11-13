@@ -35,6 +35,7 @@ export function App() {
           <Route path='security' element={<Security />} />
           <Route path='Register' element={<Register />} />
           <Route path='Chatbot' element={<ChatBot />} />
+          {/* <Route path='Scholarship' element={<Scholarship />} /> */}
           <Route path='login' element={<Login />} />
           <Route path='CPE361' element={<CPE361 />} />
           <Route path='CPE375' element={<CPE375 />} />
