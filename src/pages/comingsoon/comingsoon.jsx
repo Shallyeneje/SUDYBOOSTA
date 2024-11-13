@@ -15,6 +15,7 @@ const ComingSoon = () => {
           href="https://chat.whatsapp.com/I2FEWTyTANI5F3sVWRQJD8"
           className="notify-btn"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Join StudyBoosta Community on WhatsApp
         </a>
