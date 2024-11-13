@@ -1,5 +1,5 @@
-import Hero from "../../components/Hero/Hero";
-import './homepage.css';
+import { FaBookOpen, FaBrain, FaBriefcase } from "react-icons/fa";
+import pict1 from '../../components/assets/images/read.jpg'
 
 // import { Link } from "react-router-dom";
 const HomePage = () => {
