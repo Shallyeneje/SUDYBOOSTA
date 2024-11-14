@@ -38,13 +38,7 @@ const Courses = () => {
             </div>
             {isOpen && (
               <div className="dropdown-content">
-                <Link
-                  to="/CPE100"
-                  className="dropdown-item"
-                  onClick={toggleDropdown}
-                >
-                  CPE100
-                </Link>
+                
                 <Link
                   to="/CPE200"
                   className="dropdown-item"
@@ -60,15 +54,9 @@ const Courses = () => {
                   CPE300
                 </Link>
 
+              
                 <Link
                   to="/CPE500"
-                  className="dropdown-item"
-                  onClick={toggleDropdown}
-                >
-                  CPE400
-                </Link>
-                <Link
-                  to="/CPE400"
                   className="dropdown-item"
                   onClick={toggleDropdown}
                 >
